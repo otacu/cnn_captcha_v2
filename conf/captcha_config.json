@@ -1,0 +1,9 @@
+{
+  "root_dir": "E:/captcha/sample/origin/",
+  "image_suffix": "png",
+  "characters": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "count": 3500,
+  "char_count": 5,
+  "width": 150,
+  "height": 38
+}

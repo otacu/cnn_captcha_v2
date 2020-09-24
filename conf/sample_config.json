@@ -1,0 +1,23 @@
+{
+  "origin_image_dir": "E:/captcha/sample/origin/",
+  "new_image_dir": "E:/captcha/sample/new_train/",
+  "train_image_dir": "E:/captcha/sample/train/",
+  "test_image_dir": "E:/captcha/sample/test/",
+  "api_image_dir": "E:/captcha/sample/api/",
+  "online_image_dir": "E:/captcha/sample/online/",
+  "local_image_dir": "E:/captcha/sample/local/",
+  "model_save_dir": "E:/captcha/model/",
+  "image_width": 150,
+  "image_height": 38,
+  "max_captcha": 5,
+  "image_suffix": "png",
+  "char_set": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "use_labels_json_file": false,
+  "remote_url": "http://127.0.0.1:6100/captcha/",
+  "cycle_stop": 3500,
+  "acc_stop": 0.99,
+  "cycle_save": 500,
+  "enable_gpu": 1,
+  "train_batch_size": 128,
+  "test_batch_size": 100
+}
